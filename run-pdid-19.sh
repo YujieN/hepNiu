@@ -1,0 +1,5 @@
+#!/bin/bash
+source /cvmfs/juno.ihep.ac.cn/sw/GENIE-MC/GENIE3/genie3-setup.sh 
+
+gevgen_ndcy -n 10000 -m 19 -N 2212 -g 1000060120[0.8798321],1000060130[0.009408],1000010010[0.110086],1000010020[0.0000138],1000080160[0.00034],1000070140[0.00027],1000160320[0.00005] -seed 122638023 -r 19 -o /junofs/users/junotemp008/test/pd19
+
